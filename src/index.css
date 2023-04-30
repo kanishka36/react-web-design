@@ -10,22 +10,13 @@
 
 body {
     background-color: rgb(73, 73, 133);
-    color: white;
 }
 
 a {
-    color: white;
     cursor: pointer;
     color: inherit;
     text-decoration: none;
     transition: none;
-}
-
-.container {
-    position: relative;
-    display: flex;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
 }
 
 img {
