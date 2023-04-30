@@ -1,0 +1,26 @@
+.logo img{
+    width: 2rem;
+    transform: rotate(180deg);
+    display: inline-block;
+    position: relative;
+    bottom: 100%;
+    /* top: 0; */
+    /* display: none; */
+}
+
+nav {
+    background-color: red;
+    position: relative;
+    display: flex;
+    writing-mode: vertical-lr;
+    bottom: 100%;
+}
+
+.nav__links {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    flex-direction: column;
+    height: 100vh;
+    display: none;
+}
