@@ -9,6 +9,11 @@ function NavBar() {
   return (
     <nav>
         <div className="container nav__container">
+            <div className="nav__container-wrapper">
+                <div className="nav__icon">
+                    
+                </div>
+            </div>
             <Link to="/" className='logo'>
                 <img src={Logo} alt="Nav Logo" />
             </Link>
@@ -24,9 +29,7 @@ function NavBar() {
                 }
             </ul>
 
-            <button className="nav__toggle-btn">
-                <GoThreeBars/>
-            </button>
+            
         </div>
     </nav>
   )
