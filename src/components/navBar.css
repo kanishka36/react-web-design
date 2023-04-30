@@ -24,3 +24,7 @@ nav {
     height: 100vh;
     display: none;
 }
+
+main {
+    background-color: red;
+}
