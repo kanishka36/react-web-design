@@ -1,5 +1,4 @@
 
-
 .nav__container {
     position: relative;
     position: fixed;
@@ -95,7 +94,7 @@
 }
 
 .menu__show {
-    transform: translateX(-580px);
+    transform: translateX(-700px);
 }
 
 .menu__wrapper {
