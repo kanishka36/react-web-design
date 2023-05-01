@@ -5,12 +5,15 @@ import './header.css'
 
 function Header() {
   return (
-    <header className='header'>
-        <div className="container header-container">
+    <header className='container'>
+        <div className="header-container">
             <div className="header-left">
-                <h2>WE REWRITE THE RULES OF DIGITAL TRANSFORMATION</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nesciunt inventore atque natus, impedit aliquam est optio quasi.</p>
-                <Link to="/about" className='btn lg'>READ MORE</Link>                
+                    <h2>WE REWRITE<br/> THE RULES OF DIGITAL<br/> TRANSFORMATION</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nesciunt inventore atque natus, impedit aliquam est optio quasi.</p>
+                    <button className='header-button'>
+                    <Link to="/about" className='btn lg'>READ MORE</Link> 
+                    </button> 
+      
             </div>
             <div className="header-right">
                 <div className="header-video">
@@ -20,6 +23,7 @@ function Header() {
                 </div>
             </div>
         </div>
+            
     </header>
   )
 }
