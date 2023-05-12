@@ -1,10 +1,10 @@
 import React from 'react'
-import SliderImage from '../../components/SliderImage'
+import Footer from '../../components/Footer'
 
 function About() {
   return (
     <div>
-      <SliderImage/>
+      <Footer/>
     </div>
   )
 }

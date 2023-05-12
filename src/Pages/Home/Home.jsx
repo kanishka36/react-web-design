@@ -2,9 +2,10 @@ import React from 'react'
 import Header from '../../components/Header'
 import SECTION_B from './SECTION_B'
 import SECTION_A from './SECTION_A'
-import './home.css'
 import SECTION_C from './SECTION_C'
 import Footer from '../../components/Footer'
+import './home.css'
+
 
 
 function Home() {
