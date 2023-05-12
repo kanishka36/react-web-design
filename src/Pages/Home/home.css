@@ -1,10 +1,150 @@
-h1 {
-    font-size: 30px;
-    color: red;
-}
+/* Section-A */
 
 .section-a {
+    overflow: hidden;
     height: 100vh;
+}
+
+.elementary__container {
     background-color: white;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementary-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.elementary-header h1 {
+    font-size: 200px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin: 5% auto 0 auto;
+    text-align: center;
+    line-height: 0.9;
+}
+
+.elementary-header p {
+    margin-top: 2%;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    width: 1110px;
+}
+
+.elementary-header a {
+    color: white;
+    font-size: 25px;
+    background-color: rgb(138, 171, 253);
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+.section-a h2 {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 70px;
+}
+
+.slider-size {
+    width: 1026px;
+    margin: 4% auto;
+}
+  
+
+/* Section-B */
+
+.section-b {
+    height: 100vh;
+    display: flex;
+}
+
+.text__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 340px;
+    left: 12vw;
+    right: 10vw;
+    line-height: 1.3;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.text__container h1 {
+    color: white;
+    font-size: 59px;
+    font-weight: 600;
+}
+
+.text__container h1::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid white;
+    margin-top: -6px;
+}
+
+.discription__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 340px;
+    left: 12vw;
+    right: 10vw;
+    line-height: 1.3;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.discription__container h1 {
+    color: rgb(0, 0, 0);
+    font-size: 59px;
+    font-weight: 600;
+}
+
+.discription__container h1::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    margin-top: -6px;
+}
+
+
+.discription__container h2 {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+.discription__container .discription {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 35px;
+    margin-top: 35px;
+}
+
+
+.discription__container .discription p {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+    width: 1050px;
 }

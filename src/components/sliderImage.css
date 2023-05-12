@@ -1,0 +1,10 @@
+.slider-div img{
+    height: 100px;
+    width: 200px;
+    margin: 10px auto 10px auto;
+}
+
+.slider-div img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-out;
+}

@@ -1,8 +1,11 @@
 import React from 'react'
+import SliderImage from '../../components/SliderImage'
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <SliderImage/>
+    </div>
   )
 }
 
