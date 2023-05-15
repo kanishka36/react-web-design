@@ -12,7 +12,7 @@ function SliderImage(props) {
     dots: false,
     infinite: true,
     slidesToShow: slide, //props.slide also correct when use it remove line 9. same way to img in line 24.
-    slidesToScroll: 1,
+    slidesToScroll: 1,    //{} are used only in html tags
     autoplay: true,
     speed: 500,
     autoplaySpeed: 2000,
