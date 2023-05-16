@@ -94,7 +94,7 @@
 }
 
 .menu__show {
-    transform: translateX(-700px);
+    transform: translateX(-900px);
 }
 
 .menu__wrapper {
@@ -116,7 +116,7 @@
     height: 100%;
     display: flex;
     background-color: rgb(138, 171, 253);
-    max-width: 120px;
+    max-width: 144px;
 }
 
 .nav__links li a {
