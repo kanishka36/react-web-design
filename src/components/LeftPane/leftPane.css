@@ -1,4 +1,17 @@
-.left_pane {
+.leftpane_container {
     background-color: green;
     flex: 1;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.leftpane_container::-webkit-scrollbar {
+    display: none;
+}
+
+.box1 {
+    background-color: white;
+    width: 100%;
+    aspect-ratio: 1/1;
+    flex-grow: 1;
 }

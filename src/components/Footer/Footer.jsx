@@ -1,44 +1,79 @@
 import React from 'react'
+import Footer_img from '../../Images/footer-img.png'
+import CopyrightIcon from '@mui/icons-material/Copyright';
 import './footer.css'
 
 function Footer() {
   return (
     <footer>
-      <div className="map">
-        <iframe className="gmap_iframe" title="Google Maps" src="https://maps.google.com/maps?width=771&amp;height=416&amp;hl=en&amp;q=Piliyandala&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-      </div>
-
-      <div className="footer__container">
-        <div className="left">
-          <h1>GRAVITY COLOMBO</h1>
-          <div className="comm-text">
-            <h4>We collaborate with</h4>
-          </div>
-          <div className="bottom">
-            <div className="comm-data">
-              <img src="" alt="logo" />
-              <p className="comm-text">To make the offline world just as good-looking as the online.</p>
+      <div className="footer_contact-us-div">
+        <div className="footer_top">
+          <h1>Contact Us</h1>
+        </div>
+        <div className="footer_bottom">
+          <div className="footer_left">
+            <div className="footer_wrapper-link">
+              <a href="/" className="footer_link">For a project</a>
             </div>
-            <div className="comm-data">
-              <img src="" alt="logo" />
-              <p className="comm-text">Because analytics, insights and performance should look just as good.</p>
+            <div className="footer_wrapper-link">
+              <a href="/" className="footer_link">For work & practices</a>
+            </div>
+            <div className="footer_wrapper-link">
+              <a href="/" className="footer_link">To offer professional services</a>
             </div>
           </div>
-          
-        </div>
-
-        <div className="right">
-          <p className='underline comm-text'>Let’s chat. We have so much more to show you. Trust us, it’s the best one hour you’ll invest in a solid future with Centrick.</p>
-          <div className="email">
-            <p className='comm-text'>Email:</p>
-            <a className='comm-text' href="/">roy@gravitycolombo.in</a>
-            <a className='comm-text' href="/">anamata@gravitycolombo.in</a>
+          <div className="footer_right">
+            <h2>Sign up for our newsletter to stay up to date!</h2>
+            <div className="footer_form">
+              <form action="post">
+                <input name="EMAIL" placeholder='Write your email' className="footer_email" />
+                <div className="privacy_policy">
+                  <div className="footer_checkbox-custom">
+                    <input type="checkbox" name="privacy_policy" className="footer_checkbox"/>
+                  </div>
+                  <div className="footer_checkbox-acceptance-text">
+                    <span>I accept the <a href="/">privacy policy</a></span> 
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-      <div className="copyright__container">
-        
+
+      <div className="footer_img-div">
+        <img src={Footer_img} alt="footer-img" />
       </div>
+
+      <div className="footer_contacts-div">
+        <div className="footer_contacts">
+          <div className="contacts-wrapper">
+            <p>T. +94000444879</p>
+            <p>Ca I'Alegre de Dalt 55, Baxios C 080064 -- Barcelona (Spain)</p>
+            <a href="/">How to get there</a>
+          </div>
+        </div>
+
+        <div className="footer_social-media">
+          <div className="social-left">
+            <a href="/" className="social-media">Linkedin</a>
+            <a href="/" className="social-media">Twitter</a>
+          </div>
+          <div className="social-right">
+            <a href="/" className="social-media">Behance</a>
+            <a href="/" className="social-media">instagram</a>
+          </div>
+        </div>
+
+        <div className="footer_copyrights">
+          <a href="/" className="terms-contion">Terms & Conditions</a>
+          <p className='copyrights'>
+            <CopyrightIcon className='copyright-icon' sx={{ fontSize: 20 }}/>
+            GRAVITY COLOMBO - All rights reserved
+          </p>
+        </div>
+      </div>
+      
     </footer>
   )
 }

@@ -1,4 +1,18 @@
-.right_pane {
+.rightpane_container {
     background-color: red;
     flex: 1;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.rightpane_container::-webkit-scrollbar {
+    display: none;
+}
+
+.box2 {
+    background-color: black;
+    width: 100%;
+    aspect-ratio: 1/1;
+    flex-grow: 1;
+    color: white;
 }
